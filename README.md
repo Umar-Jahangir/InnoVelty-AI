@@ -1,1 +1,1 @@
-# InnoVelty-AI
+# InnoVelty-AI - Patent & Research Novelty Checker
