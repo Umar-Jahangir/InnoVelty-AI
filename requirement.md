@@ -1,9 +1,9 @@
-1. 📌 Project Overview
+1. Project Overview
 - The Patent & Research Novelty Checker is an AI-powered system designed to evaluate the originality of user ideas by comparing them against existing patents and research publications.
 - The system automates literature review and novelty assessment using AI, vector similarity search, and multi-source academic data retrieval.
 - It helps students, researchers, developers, and innovators determine whether their ideas are suitable for patent filing or better suited for research publication.
 
-2. 🎯 Objectives
+2. Objectives
 - The primary objectives of the system are:
 - Reduce time required for manual novelty checking
 - Provide AI-based evaluation of idea originality
@@ -11,7 +11,7 @@
 - Improve productivity in innovation and research workflows
 - Simplify complex patent search processes for beginners
 
-3. 👥 Target Users
+3. Target Users
 - The system is intended for:
 - Students working on academic projects
 - Researchers conducting literature reviews
@@ -19,7 +19,7 @@
 - Developers exploring innovation opportunities
 - Individuals preparing patent applications
 
-4. ⚙️ Functional Requirements
+4. Functional Requirements
 4.1 User Input
 - The system shall allow users to:
 - Enter an idea title and description
@@ -71,7 +71,7 @@ The system shall:
 - Suggest whether an idea is suitable for patent filing
 - Recommend writing a research paper if novelty is low
 
-5. 🚀 Future Functional Requirements
+5. Future Functional Requirements
 Planned enhancements include:
 - Negative Novelty Detector to identify risky claims
 - AI suggestions for improving low-novelty ideas
@@ -79,7 +79,7 @@ Planned enhancements include:
 - Automated literature review generation
 - Domain-specific innovation recommendations
 
-6. ⚡ Non-Functional Requirements
+6. Non-Functional Requirements
 6.1 Performance
 - Analysis should complete within 30–60 seconds
 - System should support multiple concurrent users
@@ -100,18 +100,18 @@ Planned enhancements include:
 - API keys must be securely stored
 - User data should not be publicly exposed
 
-7. 🔒 Constraints
+7. Constraints
 - Depends on third-party API availability
 - Limited by API rate limits
 - Requires internet connectivity
 - AI analysis accuracy depends on data quality
 
-8. 📊 Assumptions
+8. Assumptions
 - Users provide clear and meaningful idea descriptions
 - External data sources remain accessible
 - AI models provide reasonably accurate insights
 
-9. ✅ Success Criteria
+9. Success Criteria
 - The system will be considered successful if it:
 - Accurately identifies similar patents and papers
 - Generates reliable novelty scores
