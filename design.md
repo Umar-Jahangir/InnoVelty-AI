@@ -9,3 +9,21 @@ Presentation Layer (Frontend UI)
 Application Layer (Core Logic & Processing)
 AI & Search Layer (Embeddings, Vector Search, AI Analysis)
 Data Source Layer (External APIs & Storage)
+
+High-Level Architecture Flow
+''
+User Input
+   ↓
+Streamlit Frontend
+   ↓
+Data Collection Module
+   ↓
+Embedding Generator
+   ↓
+Vector Search Engine (Similarity Analysis)
+   ↓
+AI Analyzer (Novelty Explanation)
+   ↓
+Results Display + Export
+''
+
