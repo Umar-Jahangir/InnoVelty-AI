@@ -11,19 +11,32 @@ AI & Search Layer (Embeddings, Vector Search, AI Analysis)
 Data Source Layer (External APIs & Storage)
 
 High-Level Architecture Flow
-''
-User Input
-   ↓
-Streamlit Frontend
-   ↓
-Data Collection Module
-   ↓
-Embedding Generator
-   ↓
-Vector Search Engine (Similarity Analysis)
-   ↓
-AI Analyzer (Novelty Explanation)
-   ↓
-Results Display + Export
-''
+┌─────────────────────────────────────────────────────────────┐
+│                    PRESENTATION LAYER                        │
+│                    Streamlit Frontend UI                     │
+└───────────────────────────────┬─────────────────────────────┘
+                                │
+┌───────────────────────────────▼─────────────────────────────┐
+│                   APPLICATION LAYER                          │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
+│  │    Data      │  │    Idea      │  │   History    │      │
+│  │ Collection   │  │ Preprocessing│  │ Management   │      │
+│  └──────────────┘  └──────────────┘  └──────────────┘      │
+└───────────────────────────────┬─────────────────────────────┘
+                                │
+┌───────────────────────────────▼─────────────────────────────┐
+│                    AI & SEARCH LAYER                         │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
+│  │  Embedding   │  │   Vector     │  │     AI       │      │
+│  │  Generator   │──│    Search    │──│   Analyzer   │      │
+│  └──────────────┘  └──────────────┘  └──────────────┘      │
+└───────────────────────────────┬─────────────────────────────┘
+                                │
+┌───────────────────────────────▼─────────────────────────────┐
+│                    DATA SOURCE LAYER                         │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
+│  │   Patent     │  │  Research    │  │   Vector     │      │
+│  │    APIs      │  │    APIs      │  │   Database   │      │
+│  └──────────────┘  └──────────────┘  └──────────────┘      │
+└─────────────────────────────────────────────────────────────┘
 
